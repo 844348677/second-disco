@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Queryrecordsum" table="Queryrecordsum">  
+    
+        <id name="id" column="id">  
+        </id>  
+
+		<property name="ReportId" type="string"  column="ReportId"/>
+		
+		<property name="Queryrecordsum_Last1MonLoanApSum" type="string"  column="Queryrecordsum_Last1MonLoanApSum"/>
+		
+		<property name="Queryrecordsum_Last2YearsLoanMangeSum" type="string"  column="Queryrecordsum_Last2YearsLoanMangeSum"/>
+		
+		<property name="Queryrecordsum_Last2YearsSpeMerchApSum" type="string"  column="Queryrecordsum_Last2YearsSpeMerchApSum"/>
+		
+		<property name="Queryrecordsum_Last1MonCreditCardApSum" type="string"  column="Queryrecordsum_Last1MonCreditCardApSum"/>
+		
+		<property name="Queryrecordsum_Last2YearsGuarApSum" type="string"  column="Queryrecordsum_Last2YearsGuarApSum"/>
+		
+		<property name="Queryrecordsum_Last1MonOrgCreditCardApSum" type="string"  column="Queryrecordsum_Last1MonOrgCreditCardApSum"/>
+		
+		<property name="Queryrecordsum_Last1MonOrgLoanApSum" type="string"  column="Queryrecordsum_Last1MonOrgLoanApSum"/>
+
+    </class>  
+  
+</hibernate-mapping> 

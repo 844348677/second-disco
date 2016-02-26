@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+  
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Loaninfo" table="Loaninfo">  
+    
+        <id name="id" column="id">  
+        </id>  
+		<property name="ReportId" type="string"  column="ReportId"/>
+		
+		<property name="loan_num" type="string"  column="loan_num"/>
+		
+		<property name="org" type="string"  column="org"/>
+		
+		<property name="FiveGradeClassific" type="string"  column="FiveGradeClassific"/>
+		
+		<property name="Month24RepayStatus" type="string"  column="Month24RepayStatus"/>
+		
+		<property name="ThisMonthRepayDay"  type="date" length="7"  column="ThisMonthRepayDay"/>
+		
+		<property name="ThisMonthActualRepayAmount" type="string"  column="ThisMonthActualRepayAmount"/>
+		
+		<property name="TheLastestRepayDay"  type="date" length="7"  column="TheLastestRepayDay"/>
+		
+		<property name="CurrentOverdueNum" type="string"  column="CurrentOverdueNum"/>
+		
+		<property name="loan_begindate"  type="date" length="7"  column="loan_begindate"/>
+		
+		<property name="loan_busnum" type="string"  column="loan_busnum"/>
+		
+		<property name="loan_repperiods" type="string"  column="loan_repperiods"/>
+		
+		<property name="loan_reptype" type="string"  column="loan_reptype"/>
+		
+		<property name="loan_enddate"  type="date" length="7"   column="loan_enddate"/>
+		
+		<property name="update_day"  type="date" length="7"   column="update_day"/>
+		
+		<property name="update_mon" type="string"  column="update_mon"/>
+		
+		<property name="pay_beginmonth" type="string"  column="pay_beginmonth"/>
+		
+		<property name="pay_endmonth" type="string"  column="pay_endmonth"/>
+		
+		<property name="currency_type" type="string"  column="currency_type"/>
+		
+		<property name="Loaninfo_Overdue180Days" type="string"  column="Loaninfo_Overdue180Days"/>
+		
+		<property name="Loaninfo_CurrentOverdueAmount" type="string"  column="Loaninfo_CurrentOverdueAmount"/>
+		
+		<property name="Loaninfo_Overdue31To60Days" type="string"  column="Loaninfo_Overdue31To60Days"/>
+		
+		<property name="Loaninfo_loan_amt" type="string"  column="Loaninfo_loan_amt"/>
+		
+		<property name="Loaninfo_ThisMonthRepayAmount" type="string"  column="Loaninfo_ThisMonthRepayAmount"/>
+		
+		<property name="Loaninfo_is_guaranteed_loan" type="string"  column="Loaninfo_is_guaranteed_loan"/>
+		
+		<property name="Loaninfo_Overdue91To180Days" type="string"  column="Loaninfo_Overdue91To180Days"/>
+		
+		<property name="Loaninfo_loan_status" type="string"  column="Loaninfo_loan_status"/>
+		
+		<property name="Loaninfo_loan_type" type="string"  column="Loaninfo_loan_type"/>
+		
+		<property name="Loaninfo_Overdue61To90Days" type="string"  column="Loaninfo_Overdue61To90Days"/>
+		
+		<property name="Loaninfo_PrincipalBalance" type="string"  column="Loaninfo_PrincipalBalance"/>
+		
+		<property name="Loaninfo_RemainRepayNum" type="string"  column="Loaninfo_RemainRepayNum"/>
+        
+    </class>  
+  
+</hibernate-mapping> 

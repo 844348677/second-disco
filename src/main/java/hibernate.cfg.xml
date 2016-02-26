@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+         "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+
+<hibernate-configuration>
+
+	<session-factory>
+
+		<!-- 数据库连接设置 -->
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<!-- Student为你的数据库名称 -->
+		<property name="connection.url">jdbc:mysql://localhost:3306/rcdbsz</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">123456</property>
+
+		<!-- JDBC connection pool (use the built-in) -->
+		<property name="connection.pool_size">1</property>
+
+		<!-- SQL方言 -->
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+
+		<!-- Enable Hibernate's automatic session context management -->
+		<property name="current_session_context_class">thread</property>
+
+		<!-- Disable the second-level cache -->
+		<property name="cache.provider_class">
+			org.hibernate.cache.NoCacheProvider
+		</property>
+
+		<!-- 显示SQL语句 -->
+		<property name="show_sql">true</property>
+		<!-- 格式化输出SQL语句 -->
+		<property name="format_sql">true</property>
+
+		<!-- validate 加载hibernate时，验证创建数据库表结构 -->
+		<!-- create 每次加载hibernate，重新创建数据库表结构，这就是导致数据库表数据丢失的原因。 -->
+		<!-- create-drop 加载hibernate时创建，退出是删除表结构 -->
+		<!-- update 加载hibernate自动更新数据库结构 -->
+		<property name="hbm2ddl.auto">update</property>
+
+
+		<!-- hibernate与数据库的对象关系映射文件**.hbm.xml -->
+		<mapping resource="com/hdd/dbtest/domain/hibernate/ReportId.hbm.xml" />
+		<!-- 使用annotion注解时，hibernate与数据库对象关系映射表示 -->
+		<!-- 推荐使用annotion注解来表示映射关系 -->
+		<mapping class="com.hdd.dbtest.domain.ReportId" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Identityinfo.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Beoverduesummaryinfo.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Beoverduesummaryoverview.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Compulsoryexecutionrecord.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Creditcardinfo.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Creditloanapproquerydetailed.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Credittipsinfo.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Loaninfo.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Nocancelcreditcardsummaryinfo.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Nocaquasicreditcardinfosum.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Nosettledloansummaryinfo.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Occupationinfo.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Pboc_credit_overdue.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Pboc_loan_overdue.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Pboc_loan_stypes.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Pboc_qcredit_overdue.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Pensioninsurancepayrecord.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Perguaranteeinfo.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Persummaryguarantee.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Quasicreditcard.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Queryrecordsum.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Resideinfo.hbm.xml" />
+		<mapping resource="com/hdd/dbtest/domain/hibernate/Reportbasics_main_4.hbm.xml" />
+		
+		<mapping resource="com/hdd/szdb/domain/hibernate/info_address.hbm.xml" />
+		<mapping resource="com/hdd/szdb/domain/hibernate/info_bill.hbm.xml" />
+		<mapping resource="com/hdd/szdb/domain/hibernate/info_credit.hbm.xml" />
+		<mapping resource="com/hdd/szdb/domain/hibernate/info_gavouch.hbm.xml" />
+		<mapping resource="com/hdd/szdb/domain/hibernate/info_loan.hbm.xml" />
+		<mapping resource="com/hdd/szdb/domain/hibernate/info_profession.hbm.xml" />
+		<mapping resource="com/hdd/szdb/domain/hibernate/info_qcredit.hbm.xml" />
+		<mapping resource="com/hdd/szdb/domain/hibernate/info_query.hbm.xml" />
+		<mapping resource="com/hdd/szdb/domain/hibernate/oa_datatoqh_5.hbm.xml" />
+		<mapping resource="com/hdd/szdb/domain/hibernate/add_info_1.hbm.xml" />
+		<mapping resource="com/hdd/szdb/domain/hibernate/add_info_2.hbm.xml" />
+		<mapping resource="com/hdd/szdb/domain/hibernate/add_info_22.hbm.xml" />
+		<mapping resource="com/hdd/szdb/domain/hibernate/Information.hbm.xml" />
+		<mapping resource="com/hdd/szdb/domain/hibernate/newdata.hbm.xml" />
+		<mapping resource="com/hdd/szdb/domain/hibernate/risk.hbm.xml" />
+		<mapping resource="com/hdd/szdb/domain/hibernate/lgd.hbm.xml" />
+
+
+	</session-factory>
+
+</hibernate-configuration>

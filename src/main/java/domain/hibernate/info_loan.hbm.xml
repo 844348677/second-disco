@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.szdb.domain">  
+  
+    <class name="Info_loan" table="info_loan">  
+    
+        <id name="id" column="id" >  
+        </id>  
+
+		<property name="APPL_ID" type="string"  column="APPL_ID"/>
+		
+		<property name="贷款编号" type="string"  column="贷款编号"/>
+		
+		<property name="贷款五级分类" type="string"  column="贷款五级分类"/>
+		
+		<property name="贷款信用卡还款记录" type="string"  column="贷款信用卡还款记录"/>
+		
+		<property name="贷款本金余额" type="string"  column="贷款本金余额"/>
+		
+		<property name="贷款剩余还款期数" type="string"  column="贷款剩余还款期数"/>
+		
+		<property name="贷款本月应还款" type="string"  column="贷款本月应还款"/>
+		
+		<property name="贷款应还款日" type="string"  column="贷款应还款日"/>
+		
+		<property name="贷款本月实还款" type="string"  column="贷款本月实还款"/>
+		
+		<property name="贷款最近一次还款日期" type="string"  column="贷款最近一次还款日期"/>
+		
+		<property name="贷款当前逾期期数" type="string"  column="贷款当前逾期期数"/>
+		
+		<property name="贷款当前逾期金额" type="string"  column="贷款当前逾期金额"/>
+		
+		<property name="贷款逾期3160天未还本金" type="string"  column="贷款逾期3160天未还本金"/>
+		
+		<property name="贷款逾期6190天未还本金" type="string"  column="贷款逾期6190天未还本金"/>
+		
+		<property name="贷款逾期91180天未还本金" type="string"  column="贷款逾期91180天未还本金"/>
+		
+		<property name="贷款逾期180天以上未还本金" type="string"  column="贷款逾期180天以上未还本金"/>
+		
+		<property name="贷款发放日期" type="string"  column="贷款发放日期"/>
+		
+		<property name="贷款金额" type="string"  column="贷款金额"/>
+		
+		<property name="贷款类型" type="string"  column="贷款类型"/>
+		
+		<property name="担保类型" type="string"  column="担保类型"/>
+		
+		<property name="贷款期数" type="string"  column="贷款期数"/>
+		
+		<property name="还款方式" type="string"  column="还款方式"/>
+		
+		<property name="贷款到期日期" type="string"  column="贷款到期日期"/>
+		
+		<property name="是否结清" type="string"  column="是否结清"/>
+		
+		<property name="结清月份" type="string"  column="结清月份"/>
+		
+		<property name="转出前最后一次还款日期" type="string"  column="转出前最后一次还款日期"/>
+		
+		<property name="转出余额" type="string"  column="转出余额"/>
+		
+		<property name="信息更新日期" type="string"  column="信息更新日期"/>
+		
+		<property name="还款状态开始月份" type="string"  column="还款状态开始月份"/>
+		
+		<property name="还款状态结束月份" type="string"  column="还款状态结束月份"/>
+		
+		<property name="loan_credit_detail" type="string"  column="loan_credit_detail"/>
+		
+
+    </class>  
+  
+</hibernate-mapping> 

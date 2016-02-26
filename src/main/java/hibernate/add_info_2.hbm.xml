@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.szdb.domain">  
+  
+    <class name="Add_info_2" table="add_info_2">  
+    
+        <id name="id" column="id" >  
+        </id>  
+
+		<property name="APPL_ID" type="string"  column="APPL_ID"/>
+		
+		<property name="签约城市" type="string"  column="签约城市"/>
+		
+		<property name="个人当季结息" type="string"  column="个人当季结息"/>
+		
+		<property name="个人上季结息" type="string"  column="个人上季结息"/>
+		
+		<property name="对公当季结息" type="string"  column="对公当季结息"/>
+		
+		<property name="对公上季结息" type="string"  column="对公上季结息"/>
+		
+		<property name="账户余额" type="string"  column="账户余额"/>
+		
+		<property name="overdue_flag_1" type="string"  column="overdue_flag_1"/>
+		
+		<property name="信用卡最近1个月查询次数" type="string"  column="信用卡最近1个月查询次数"/>
+		
+		<property name="信用卡最近2个月查询次数" type="string"  column="信用卡最近2个月查询次数"/>
+		
+		<property name="信用卡最近3个月查询次数" type="string"  column="信用卡最近3个月查询次数"/>
+		
+		<property name="信用卡最近6个月查询次数" type="string"  column="信用卡最近6个月查询次数"/>
+		
+		<property name="贷款最近1个月查询次数" type="string"  column="贷款最近1个月查询次数"/>
+		
+		<property name="贷款最近2个月查询次数" type="string"  column="贷款最近2个月查询次数"/>
+		
+		<property name="贷款最近3个月查询次数" type="string"  column="贷款最近3个月查询次数"/>
+		
+		<property name="贷款最近6个月查询次数" type="string"  column="贷款最近6个月查询次数"/>
+		
+		<property name="所有最近1个月查询次数" type="string"  column="所有最近1个月查询次数"/>
+		
+		<property name="所有最近2个月查询次数" type="string"  column="所有最近2个月查询次数"/>
+		
+		<property name="所有最近3个月查询次数" type="string"  column="所有最近3个月查询次数"/>
+		
+		<property name="所有最近6个月查询次数" type="string"  column="所有最近6个月查询次数"/>
+		
+		<property name="贷款最近3个月逾期1期以上次数" type="string"  column="贷款最近3个月逾期1期以上次数"/>
+		
+		<property name="贷款最近6个月逾期1期以上次数" type="string"  column="贷款最近6个月逾期1期以上次数"/>
+		
+		<property name="贷款最近12个月逾期1期以上次数" type="string"  column="贷款最近12个月逾期1期以上次数"/>
+		
+		<property name="贷款最近24个月逾期1期以上次数" type="string"  column="贷款最近24个月逾期1期以上次数"/>
+		
+		<property name="贷记卡最近3个月逾期1期次数" type="string"  column="贷记卡最近3个月逾期1期次数"/>
+		
+		<property name="贷记卡最近6个月逾期1期次数" type="string"  column="贷记卡最近6个月逾期1期次数"/>
+		
+		<property name="贷记卡最近12个月逾期1期次数" type="string"  column="贷记卡最近12个月逾期1期次数"/>
+		
+		<property name="贷记卡最近24个月逾期1期次数" type="string"  column="贷记卡最近24个月逾期1期次数"/>
+		
+		<property name="贷记卡额度大于等于10000最近开户额度使用率" type="string"  column="贷记卡额度大于等于10000最近开户额度使用率"/>
+		
+		<property name="贷记卡额度使用率大于1的账户数" type="string"  column="贷记卡额度使用率大于1的账户数"/>
+		
+		<property name="证件号码所属省" type="string"  column="证件号码所属省"/>
+
+		
+
+    </class>  
+  
+</hibernate-mapping> 

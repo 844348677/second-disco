@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.szdb.domain">  
+  
+    <class name="Info_qcredit" table="info_qcredit">  
+    
+        <id name="id" column="id" >  
+        </id>  
+
+		<property name="APPL_ID" type="string"  column="APPL_ID"/>
+		
+		<property name="账户状态" type="string"  column="账户状态"/>
+		
+		<property name="编号" type="string"  column="编号"/>
+		
+		<property name="贷款信用卡还款记录" type="string"  column="贷款信用卡还款记录"/>
+		
+		<property name="准贷记卡共享额度" type="string"  column="准贷记卡共享额度"/>
+		
+		<property name="准贷记卡透支余额" type="string"  column="准贷记卡透支余额"/>
+		
+		<property name="准贷记卡最近6个月平均透支余额" type="string"  column="准贷记卡最近6个月平均透支余额"/>
+		
+		<property name="准贷记卡最大透支余额" type="string"  column="准贷记卡最大透支余额"/>
+		
+		<property name="准贷记卡账单日" type="string"  column="准贷记卡账单日"/>
+		
+		<property name="准贷记卡本月实还款" type="string"  column="准贷记卡本月实还款"/>
+		
+		<property name="准贷记卡最近一次还款日期" type="string"  column="准贷记卡最近一次还款日期"/>
+		
+		<property name="准贷记卡透支180天以上未付余额" type="string"  column="准贷记卡透支180天以上未付余额"/>
+		
+		<property name="开户日期" type="string"  column="开户日期"/>
+		
+		<property name="币种" type="string"  column="币种"/>
+		
+		<property name="额度" type="string"  column="额度"/>
+		
+		<property name="担保类型" type="string"  column="担保类型"/>
+		
+		<property name="关户月份" type="string"  column="关户月份"/>
+		
+		<property name="更新日期" type="string"  column="更新日期"/>
+		
+		<property name="坏账前最后一次还款日期" type="string"  column="坏账前最后一次还款日期"/>
+		
+		<property name="坏账前最后一次还款余额" type="string"  column="坏账前最后一次还款余额"/>
+		
+		<property name="还款状态开始年月" type="string"  column="还款状态开始年月"/>
+		
+		<property name="还款状态结束年月" type="string"  column="还款状态结束年月"/>
+		
+
+    </class>  
+  
+</hibernate-mapping> 

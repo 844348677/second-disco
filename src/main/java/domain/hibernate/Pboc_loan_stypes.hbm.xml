@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Pboc_loan_stypes" table="Pboc_loan_stypes">  
+    
+        <id name="id" column="id">  
+        </id>  
+		
+		<property name="ReportId" type="string"  column="ReportId"/>
+		
+		<property name="loan_num" type="string"  column="loan_num"/>
+		
+		<property name="SpecTraType" type="string"  column="SpecTraType"/>
+		
+		<property name="SpecTraDetailed" type="string"  column="SpecTraDetailed"/>
+		
+		<property name="SpecTraDate"  type="date" length="7"  column="SpecTraDate"/>
+		
+		<property name="Pboc_loan_stypes_SpecTraAmount" type="string"  column="Pboc_loan_stypes_SpecTraAmount"/>
+		
+		<property name="Pboc_loan_stypes_SpecTraChanMonthNum" type="string"  column="Pboc_loan_stypes_SpecTraChanMonthNum"/>
+
+    </class>  
+  
+</hibernate-mapping> 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.szdb.domain">  
+  
+    <class name="Info_address" table="info_address">  
+    
+        <id name="id" column="id" >  
+        </id>  
+
+		<property name="APPL_ID" type="string"  column="APPL_ID"/>
+		
+		<property name="居住信息居住状况" type="string"  column="居住信息居住状况"/>
+		
+		<property name="add_update" type="string"  column="add_update"/>
+		
+		<property name="add_list_no" type="string"  column="add_list_no"/>
+		
+
+    </class>  
+  
+</hibernate-mapping> 

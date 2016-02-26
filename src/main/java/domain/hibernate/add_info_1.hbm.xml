@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.szdb.domain">  
+  
+    <class name="Add_info_1" table="add_info_1">  
+    
+        <id name="id" column="id" >  
+        </id>  
+
+		<property name="APPL_ID" type="string"  column="APPL_ID"/>
+		
+		<property name="reciv_amt1" type="string"  column="reciv_amt1"/>
+		
+		<property name="reciv_amt2" type="string"  column="reciv_amt2"/>
+		
+		<property name="reciv_amt3" type="string"  column="reciv_amt3"/>
+		
+		<property name="reciv_amt4" type="string"  column="reciv_amt4"/>
+		
+		<property name="reciv_amt5" type="string"  column="reciv_amt5"/>
+		
+		<property name="reciv_amt6" type="string"  column="reciv_amt6"/>
+		
+		<property name="actual_amt1" type="string"  column="actual_amt1"/>
+		
+		<property name="actual_amt2" type="string"  column="actual_amt2"/>
+		
+		<property name="actual_amt3" type="string"  column="actual_amt3"/>
+		
+		<property name="actual_amt4" type="string"  column="actual_amt4"/>
+		
+		<property name="actual_amt5" type="string"  column="actual_amt5"/>
+		
+		<property name="actual_amt6" type="string"  column="actual_amt6"/>
+		
+		<property name="actual_amt7" type="string"  column="actual_amt7"/>
+		
+		<property name="actual_amt8" type="string"  column="actual_amt8"/>
+		
+		<property name="actual_amt9" type="string"  column="actual_amt9"/>
+		
+		<property name="首次逾期期数" type="string"  column="首次逾期期数"/>
+		
+		<property name="首次逾期后还清距离逾期天数" type="string"  column="首次逾期后还清距离逾期天数"/>
+		
+
+    </class>  
+  
+</hibernate-mapping> 

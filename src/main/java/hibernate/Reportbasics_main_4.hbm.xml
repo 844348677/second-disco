@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+  
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Reportbasics_main_4" table="Reportbasics_main_4">  
+        <id name="id" column="id">  
+        </id>  
+		<property name="oa_status" type="string"  column="oa_status"/>
+		
+		<property name="APPL_ID" type="string"  column="APPL_ID"/>
+		
+		<property name="oa_loan_amt" type="string"  column="oa_loan_amt"/>
+		
+		<property name="oa_result" type="string"  column="oa_result"/>
+		
+		<property name="oa_opinion" type="string"  column="oa_opinion"/>
+		
+		<property name="客户类别" type="string"  column="客户类别"/>
+		
+		<property name="保密与否" type="string"  column="保密与否"/>
+		
+		<property name="车辆购买贷款总额" type="string"  column="车辆购买贷款总额"/>
+		
+		<property name="车辆购买方式" type="string"  column="车辆购买方式"/>
+		
+		<property name="车辆月付贷款" type="string"  column="车辆月付贷款"/>
+		
+		<property name="贷款产品" type="string"  column="贷款产品"/>
+		
+		<property name="贷款用途" type="string"  column="贷款用途"/>
+		
+		<property name="单位人数" type="string"  column="单位人数"/>
+		
+		<property name="房产购买总额" type="string"  column="房产购买总额"/>
+		
+		<property name="房产月付贷款" type="string"  column="房产月付贷款"/>
+		
+		<property name="放款金额" type="string"  column="放款金额"/>
+		
+		<property name="放款期限" type="string"  column="放款期限"/>
+		
+		<property name="个体经营类型" type="string"  column="个体经营类型"/>
+		
+		<property name="工资发放方式" type="string"  column="工资发放方式"/>
+		
+		<property name="雇员人数" type="string"  column="雇员人数"/>
+		
+		<property name="行业" type="string"  column="行业"/>
+		
+		<property name="婚姻状况" type="string"  column="婚姻状况"/>
+		
+		<property name="教育程度" type="string"  column="教育程度"/>
+		
+		<property name="经营场所所有" type="string"  column="经营场所所有"/>
+		
+		<property name="经营场所月供金额" type="string"  column="经营场所月供金额"/>
+		
+		<property name="经营场所月租金额" type="string"  column="经营场所月租金额"/>
+		
+		<property name="居住地址省份城市" type="string"  column="居住地址省份城市"/>
+		
+		<property name="每月房租" type="string"  column="每月房租"/>
+		
+		<property name="年龄" type="string"  column="年龄"/>
+		
+		<property name="商品房及商铺数目" type="string"  column="商品房及商铺数目"/>
+		
+		<property name="申请额度" type="string"  column="申请额度"/>
+		
+		<property name="申请期限" type="string"  column="申请期限"/>
+		
+		<property name="同住人数" type="string"  column="同住人数"/>
+		
+		<property name="现单位起始工作年数" type="string"  column="现单位起始工作年数"/>
+		
+		<property name="现住址起始居住年数" type="string"  column="现住址起始居住年数"/>
+		
+		<property name="小孩是否在深圳" type="string"  column="小孩是否在深圳"/>
+		
+		<property name="性别" type="string"  column="性别"/>
+		
+		<property name="月均营业额" type="string"  column="月均营业额"/>
+		
+		<property name="月收入" type="string"  column="月收入"/>
+		
+		<property name="自有物业类型" type="string"  column="自有物业类型"/>
+		
+		<property name="居住年数" type="string"  column="居住年数"/>
+		
+		<property name="居住月数" type="string"  column="居住月数"/>
+		
+		<property name="按揭" type="string"  column="按揭"/>
+		
+		<property name="ReportId" type="string"  column="ReportId"/>
+		
+		<property name="ReportTime" type="date" length="7" column="ReportTime"/>
+		
+		<property name="贷款发放日期" type="string"  column="贷款发放日期"/>
+		
+		<property name="贷款到期日期" type="string"  column="贷款到期日期"/>
+		
+		<property name="CUST_ID" type="string"  column="CUST_ID"/>
+		
+		<property name="每月支薪日" type="string"  column="每月支薪日"/>
+		
+		<property name="Reportbasics_main_4_PRVT_QUARTER_INT" type="string"  column="Reportbasics_main_4_PRVT_QUARTER_INT"/>
+		
+		<property name="Reportbasics_main_4_oa_housetype" type="string"  column="Reportbasics_main_4_oa_housetype"/>
+		
+		<property name="Reportbasics_main_4_PRVT_LAST_QUARTER_INT" type="string"  column="Reportbasics_main_4_PRVT_LAST_QUARTER_INT"/>
+		
+		<property name="Reportbasics_main_4_appl_date" type="date" length="7" column="Reportbasics_main_4_appl_date"/>
+		
+		<property name="Reportbasics_main_4_PRVT_BAL" type="string"  column="Reportbasics_main_4_PRVT_BAL"/>
+		
+		<property name="Reportbasics_main_4_PUBLIC_LAST_QUARTER_INT" type="string"  column="Reportbasics_main_4_PUBLIC_LAST_QUARTER_INT"/>
+		
+		<property name="Reportbasics_main_4_oa_maritalstatus" type="string"  column="Reportbasics_main_4_oa_maritalstatus"/>
+		
+		<property name="Reportbasics_main_4_oa_appl_amt" type="string"  column="Reportbasics_main_4_oa_appl_amt"/>
+		
+		<property name="Reportbasics_main_4_city" type="string"  column="Reportbasics_main_4_city"/>
+		
+		<property name="Reportbasics_main_4_PUBLIC_QUARTER_INT" type="string"  column="Reportbasics_main_4_PUBLIC_QUARTER_INT"/>
+    </class>  
+  
+</hibernate-mapping> 

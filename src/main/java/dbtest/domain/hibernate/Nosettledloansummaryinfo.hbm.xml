@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+  
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Nosettledloansummaryinfo" table="Nosettledloansummaryinfo">  
+    
+        <id name="id" column="id">  
+        </id>  
+		
+		<property name="ReportId" type="string"  column="ReportId"/>
+		
+		<property name="LoanLegalOrgNum" type="string"  column="LoanLegalOrgNum"/>
+		
+		<property name="Nosettledloansummaryinfo_ContractProfits" type="string"  column="Nosettledloansummaryinfo_ContractProfits"/>
+		
+		<property name="Nosettledloansummaryinfo_Last6MothsAvgRepayAmount" type="string"  column="Nosettledloansummaryinfo_Last6MothsAvgRepayAmount"/>
+		
+		<property name="Nosettledloansummaryinfo_CountNum" type="string"  column="Nosettledloansummaryinfo_CountNum"/>
+		
+		<property name="Nosettledloansummaryinfo_LoanOrgNum" type="string"  column="Nosettledloansummaryinfo_LoanOrgNum"/>
+		
+		<property name="Nosettledloansummaryinfo_Balance" type="string"  column="Nosettledloansummaryinfo_Balance"/>
+
+		
+    </class>  
+  
+</hibernate-mapping> 

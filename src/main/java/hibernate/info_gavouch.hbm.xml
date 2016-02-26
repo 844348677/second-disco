@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.szdb.domain">  
+  
+    <class name="Info_gavouch" table="info_gavouch">  
+    
+        <id name="id" column="id" >  
+        </id>  
+
+		<property name="APPL_ID" type="string"  column="APPL_ID"/>
+		
+		<property name="对外担保信息担保贷款五级分类" type="string"  column="对外担保信息担保贷款五级分类"/>
+		
+		<property name="对外担保信息编号" type="string"  column="对外担保信息编号"/>
+		
+		<property name="对外担保信息担保贷款合同金额" type="string"  column="对外担保信息担保贷款合同金额"/>
+		
+		<property name="对外担保信息担保贷款发放日期" type="string"  column="对外担保信息担保贷款发放日期"/>
+		
+		<property name="对外担保信息担保贷款到期日期" type="string"  column="对外担保信息担保贷款到期日期"/>
+		
+		<property name="对外担保信息担保金额" type="string"  column="对外担保信息担保金额"/>
+		
+		<property name="对外担保信息担保贷款本金余额" type="string"  column="对外担保信息担保贷款本金余额"/>
+		
+		<property name="对外担保信息结算日期" type="string"  column="对外担保信息结算日期"/>
+
+		
+
+    </class>  
+  
+</hibernate-mapping> 

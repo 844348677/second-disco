@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+  
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Occupationinfo" table="Occupationinfo">  
+    
+        <id name="id" column="id">  
+        </id>  
+		
+		<property name="ReportId" type="string"  column="ReportId"/>
+		
+		<property name="Occupation" type="string"  column="Occupation"/>
+		
+		<property name="CompanyType" type="string"  column="CompanyType"/>
+		
+		<property name="Position" type="string"  column="Position"/>
+		
+		<property name="PostTitle" type="string"  column="PostTitle"/>
+		
+		<property name="Occupationinfo_InfoUpdateDate"  type="date" length="7"  column="Occupationinfo_InfoUpdateDate"/>
+		
+		<property name="Occupationinfo_NoEmploy" type="string"  column="Occupationinfo_NoEmploy"/>
+		
+		<property name="Occupationinfo_EmployedYear" type="string"  column="Occupationinfo_EmployedYear"/>
+		
+		<property name="职业信息工作单位" type="string"  column="职业信息工作单位"/>
+		<property name="职业信息单位地址" type="string"  column="职业信息单位地址"/>
+		
+    </class>  
+  
+</hibernate-mapping> 

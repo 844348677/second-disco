@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+  
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Nocaquasicreditcardinfosum" table="Nocaquasicreditcardinfosum">  
+    
+        <id name="id" column="id">  
+        </id>  
+		
+		<property name="ReportId" type="string"  column="ReportId"/>
+		
+		<property name="SendCardLegalPersonOrgNum" type="string"  column="SendCardLegalPersonOrgNum"/>
+		
+		<property name="Nocaquasicreditcardinfosum_CreditTotalAmount" type="string"  column="Nocaquasicreditcardinfosum_CreditTotalAmount"/>
+		
+		<property name="Nocaquasicreditcardinfosum_Recent6MonthAveOverdAmount" type="string"  column="Nocaquasicreditcardinfosum_Recent6MonthAveOverdAmount"/>
+		
+		<property name="Nocaquasicreditcardinfosum_OverdraftAmount" type="string"  column="Nocaquasicreditcardinfosum_OverdraftAmount"/>
+		
+		<property name="Nocaquasicreditcardinfosum_AloneBankHighestCreditAmount" type="string"  column="Nocaquasicreditcardinfosum_AloneBankHighestCreditAmount"/>
+		
+		<property name="Nocaquasicreditcardinfosum_SendCardOrgNum" type="string"  column="Nocaquasicreditcardinfosum_SendCardOrgNum"/>
+		
+		<property name="Nocaquasicreditcardinfosum_AloneBankLowestCreditAmount" type="string"  column="Nocaquasicreditcardinfosum_AloneBankLowestCreditAmount"/>
+		
+		<property name="Nocaquasicreditcardinfosum_AccountNumber" type="string"  column="Nocaquasicreditcardinfosum_AccountNumber"/>
+
+		
+    </class>  
+  
+</hibernate-mapping> 

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.szdb.domain">  
+  
+    <class name="Oa_datatoqh_5" table="oa_datatoqh_5">  
+    
+        <id name="id" column="id" >  
+        </id>  
+
+<property name="APPL_ID" type="string"  column="APPL_ID"/>
+
+<property name="申请日期" type="string"  column="申请日期"/>
+
+<property name="overdue_flag" type="string"  column="overdue_flag"/>
+
+<property name="申请额度" type="string"  column="申请额度"/>
+
+<property name="申请期限" type="string"  column="申请期限"/>
+
+<property name="年龄" type="string"  column="年龄"/>
+
+<property name="性别" type="string"  column="性别"/>
+
+<property name="贷款用途" type="string"  column="贷款用途"/>
+
+<property name="婚姻状况" type="string"  column="婚姻状况"/>
+
+<property name="教育程度" type="string"  column="教育程度"/>
+
+<property name="同住人数" type="string"  column="同住人数"/>
+
+<property name="每月房租" type="string"  column="每月房租"/>
+
+<property name="现住址起始居住年数" type="string"  column="现住址起始居住年数"/>
+
+<property name="行业" type="string"  column="行业"/>
+
+<property name="现单位起始工作年数" type="string"  column="现单位起始工作年数"/>
+
+<property name="月收入" type="string"  column="月收入"/>
+
+<property name="单位人数" type="string"  column="单位人数"/>
+
+<property name="工资发放方式" type="string"  column="工资发放方式"/>
+
+<property name="保密与否" type="string"  column="保密与否"/>
+
+<property name="类型" type="string"  column="类型"/>
+
+<property name="房产购买总额" type="string"  column="房产购买总额"/>
+
+<property name="车辆购买方式" type="string"  column="车辆购买方式"/>
+
+<property name="车辆购买贷款总额" type="string"  column="车辆购买贷款总额"/>
+
+<property name="车辆月付贷款" type="string"  column="车辆月付贷款"/>
+
+<property name="居住地址省份城市" type="string"  column="居住地址省份城市"/>
+
+<property name="放款金额" type="string"  column="放款金额"/>
+
+<property name="放款期限" type="string"  column="放款期限"/>
+
+<property name="贷款产品" type="string"  column="贷款产品"/>
+
+<property name="自有物业类型" type="string"  column="自有物业类型"/>
+
+<property name="商品房及商铺数目" type="string"  column="商品房及商铺数目"/>
+
+<property name="现住址居住月数" type="string"  column="现住址居住月数"/>
+
+<property name="客户类别" type="string"  column="客户类别"/>
+
+<property name="审批状态" type="string"  column="审批状态"/>
+
+<property name="审批意见" type="string"  column="审批意见"/>
+
+<property name="联系人电话核查异常情况" type="string"  column="联系人电话核查异常情况"/>
+
+<property name="贷款用途及资金需求" type="string"  column="贷款用途及资金需求"/>
+
+<property name="所处行业及公司人数描述" type="string"  column="所处行业及公司人数描述"/>
+
+<property name="月营业额净利润" type="string"  column="月营业额净利润"/>
+
+<property name="网点" type="string"  column="网点"/>
+
+<property name="婚姻状态" type="string"  column="婚姻状态"/>
+
+<property name="学历" type="string"  column="学历"/>
+
+<property name="房贷笔数" type="string"  column="房贷笔数"/>
+
+<property name="其他贷款笔数" type="string"  column="其他贷款笔数"/>
+
+<property name="首笔贷款发放月份" type="string"  column="首笔贷款发放月份"/>
+
+<property name="贷记卡账户数" type="string"  column="贷记卡账户数"/>
+
+<property name="首张贷记卡发卡月份" type="string"  column="首张贷记卡发卡月份"/>
+
+<property name="准贷记卡账户数" type="string"  column="准贷记卡账户数"/>
+
+<property name="首张准贷记卡发卡月份" type="string"  column="首张准贷记卡发卡月份"/>
+
+<property name="贷款逾期笔数" type="string"  column="贷款逾期笔数"/>
+
+<property name="贷款逾期月份数" type="string"  column="贷款逾期月份数"/>
+
+<property name="贷款逾期单月最高逾期总额" type="string"  column="贷款逾期单月最高逾期总额"/>
+
+<property name="贷款逾期最长逾期月数" type="string"  column="贷款逾期最长逾期月数"/>
+
+<property name="贷记卡逾期账户数" type="string"  column="贷记卡逾期账户数"/>
+
+<property name="贷记卡逾期月份数" type="string"  column="贷记卡逾期月份数"/>
+
+<property name="贷记卡单月最高逾期总额" type="string"  column="贷记卡单月最高逾期总额"/>
+
+<property name="贷记卡逾期最长逾期月数" type="string"  column="贷记卡逾期最长逾期月数"/>
+
+<property name="准贷记卡60天以上透支账户数" type="string"  column="准贷记卡60天以上透支账户数"/>
+
+<property name="准贷记卡60天以上透支月份数" type="string"  column="准贷记卡60天以上透支月份数"/>
+
+<property name="准贷记卡60天以上透支单月最高透支余额" type="string"  column="准贷记卡60天以上透支单月最高透支余额"/>
+
+<property name="准贷记卡60天以上透支最长透支月数" type="string"  column="准贷记卡60天以上透支最长透支月数"/>
+
+<property name="未结清贷款贷款法人机构数" type="string"  column="未结清贷款贷款法人机构数"/>
+
+<property name="未结清贷款贷款机构数" type="string"  column="未结清贷款贷款机构数"/>
+
+<property name="未结清贷款贷款笔数" type="string"  column="未结清贷款贷款笔数"/>
+
+<property name="未结清贷款合同总额" type="string"  column="未结清贷款合同总额"/>
+
+<property name="未结清贷款余额" type="string"  column="未结清贷款余额"/>
+
+<property name="未结清贷款最近六个月平均应还款" type="string"  column="未结清贷款最近六个月平均应还款"/>
+
+<property name="未销户贷记卡发卡法人机构数" type="string"  column="未销户贷记卡发卡法人机构数"/>
+
+<property name="未销户贷记卡发卡机构数" type="string"  column="未销户贷记卡发卡机构数"/>
+
+<property name="未销户贷记卡账户数" type="string"  column="未销户贷记卡账户数"/>
+
+<property name="未销户贷记卡授信总额" type="string"  column="未销户贷记卡授信总额"/>
+
+<property name="未销户贷记卡单家行最高授信额" type="string"  column="未销户贷记卡单家行最高授信额"/>
+
+<property name="未销户贷记卡单家行最低授信额" type="string"  column="未销户贷记卡单家行最低授信额"/>
+
+<property name="未销户贷记卡已用额度" type="string"  column="未销户贷记卡已用额度"/>
+
+<property name="最近6个月平均使用额度" type="string"  column="最近6个月平均使用额度"/>
+
+<property name="准贷记卡发卡法人机构数" type="string"  column="准贷记卡发卡法人机构数"/>
+
+<property name="准贷记卡发卡机构数" type="string"  column="准贷记卡发卡机构数"/>
+
+<property name="准贷记卡账户数2" type="string"  column="准贷记卡账户数2"/>
+
+<property name="准贷记卡授信总额" type="string"  column="准贷记卡授信总额"/>
+
+<property name="准贷记卡单家行最高授信额" type="string"  column="准贷记卡单家行最高授信额"/>
+
+<property name="准贷记卡单家行最低授信额" type="string"  column="准贷记卡单家行最低授信额"/>
+
+<property name="准贷记卡透支余额" type="string"  column="准贷记卡透支余额"/>
+
+<property name="准贷记卡最近6个月平均透支余额" type="string"  column="准贷记卡最近6个月平均透支余额"/>
+
+<property name="担保笔数" type="string"  column="担保笔数"/>
+
+<property name="担保金额" type="string"  column="担保金额"/>
+
+<property name="担保本金余额" type="string"  column="担保本金余额"/>
+
+<property name="住房公积金参缴地" type="string"  column="住房公积金参缴地"/>
+
+<property name="住房公积金参缴日期" type="string"  column="住房公积金参缴日期"/>
+
+<property name="住房公积金初缴月份" type="string"  column="住房公积金初缴月份"/>
+
+<property name="住房公积金缴至月份" type="string"  column="住房公积金缴至月份"/>
+
+<property name="住房公积金月缴存额" type="string"  column="住房公积金月缴存额"/>
+
+<property name="住房公积金缴费状态" type="string"  column="住房公积金缴费状态"/>
+
+<property name="住房公积金个人缴存比例" type="string"  column="住房公积金个人缴存比例"/>
+
+<property name="住房公积金公司缴存比例" type="string"  column="住房公积金公司缴存比例"/>
+
+<property name="住房公积金信息更新日期" type="string"  column="住房公积金信息更新日期"/>
+
+<property name="养老保险参保地" type="string"  column="养老保险参保地"/>
+
+<property name="养老保险参保日期" type="string"  column="养老保险参保日期"/>
+
+<property name="养老保险累计缴费月数" type="string"  column="养老保险累计缴费月数"/>
+
+<property name="养老保险参加工作月份" type="string"  column="养老保险参加工作月份"/>
+
+<property name="养老保险缴费状态" type="string"  column="养老保险缴费状态"/>
+
+<property name="养老保险个人缴费基数" type="string"  column="养老保险个人缴费基数"/>
+
+<property name="养老保险本月缴费金额" type="string"  column="养老保险本月缴费金额"/>
+
+<property name="养老保险信息更新日期" type="string"  column="养老保险信息更新日期"/>
+
+<property name="养老保险终端或终止缴费原因" type="string"  column="养老保险终端或终止缴费原因"/>
+
+<property name="最近1个月内的查询机构数贷款审批" type="string"  column="最近1个月内的查询机构数贷款审批"/>
+
+<property name="最近1个月内的查询机构数信用卡审批" type="string"  column="最近1个月内的查询机构数信用卡审批"/>
+
+<property name="最近1个月内的查询次数贷款审批" type="string"  column="最近1个月内的查询次数贷款审批"/>
+
+<property name="最近1个月内的查询次数信用卡审批" type="string"  column="最近1个月内的查询次数信用卡审批"/>
+
+<property name="最近2年内的查询次数贷后管理" type="string"  column="最近2年内的查询次数贷后管理"/>
+
+<property name="最近2年内的查询次数担保资格审查" type="string"  column="最近2年内的查询次数担保资格审查"/>
+
+<property name="最近2年内的查询次数特约商户实名审查" type="string"  column="最近2年内的查询次数特约商户实名审查"/>
+
+<property name="change_nameflag" type="string"  column="change_nameflag"/>
+
+<property name="oa_chinsz" type="string"  column="oa_chinsz"/>
+
+<property name="oa_manageowntype" type="string"  column="oa_manageowntype"/>
+
+<property name="degree" type="string"  column="degree"/>
+
+<property name="oa_indhighrflag" type="string"  column="oa_indhighrflag"/>
+
+<property name="oa_mortgage" type="string"  column="oa_mortgage"/>
+
+<property name="oa_housepayment" type="string"  column="oa_housepayment"/>
+
+<property name="oa_managerent" type="string"  column="oa_managerent"/>
+
+<property name="oa_managepayment" type="string"  column="oa_managepayment"/>
+
+<property name="oa_manageavgtur" type="string"  column="oa_manageavgtur"/>
+
+<property name="loan_begin" type="string"  column="loan_begin"/>
+
+<property name="loan_end" type="string"  column="loan_end"/>
+
+
+    </class>  
+  
+</hibernate-mapping> 

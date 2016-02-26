@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.szdb.domain">  
+  
+    <class name="Info_bill" table="info_bill">  
+    
+        <id name="id" column="id" >  
+        </id>  
+
+		<property name="APPL_ID" type="string"  column="APPL_ID"/>
+		
+		<property name="bill_cause" type="string"  column="bill_cause"/>
+		
+		<property name="bill_endtype" type="string"  column="bill_endtype"/>
+		
+		<property name="bill_status" type="string"  column="bill_status"/>
+		
+		<property name="bill_app_objectname" type="string"  column="bill_app_objectname"/>
+		
+		<property name="bill_exe_object" type="string"  column="bill_exe_object"/>
+		
+		<property name="bill_no" type="string"  column="bill_no"/>
+		
+		<property name="bill_bagindate" type="string"  column="bill_bagindate"/>
+		
+		<property name="bill_enddate" type="string"  column="bill_enddate"/>
+		
+		<property name="bill_app_objectvalue" type="string"  column="bill_app_objectvalue"/>
+		
+		<property name="bill_exe_objectvalue" type="string"  column="bill_exe_objectvalue"/>
+		
+
+    </class>  
+  
+</hibernate-mapping> 

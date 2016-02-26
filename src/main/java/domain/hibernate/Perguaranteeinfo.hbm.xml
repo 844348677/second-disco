@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Perguaranteeinfo" table="Perguaranteeinfo">  
+    
+        <id name="id" column="id">  
+        </id>  
+
+		<property name="ReportId" type="string"  column="ReportId"/>
+		
+		<property name="Perguaranteeinfo_No" type="string"  column="Perguaranteeinfo_No"/>
+		
+		<property name="GuarLoanIssuingAgency" type="string"  column="GuarLoanIssuingAgency"/>
+		
+		<property name="GuarLoanContractAmount" type="string"  column="GuarLoanContractAmount"/>
+		
+		<property name="GuarLoanIssueDate" type="date" length="7" column="GuarLoanIssueDate"/>
+		
+		<property name="GuarLoanDueDate" type="date" length="7" column="GuarLoanDueDate"/>
+		
+		<property name="GuarAmount" type="string"  column="GuarAmount"/>
+		
+		<property name="GuarLoanPrincipalAmount" type="string"  column="GuarLoanPrincipalAmount"/>
+		
+		<property name="SettlementDate" type="date" length="7" column="SettlementDate"/>
+		
+		<property name="Perguaranteeinfo_GuarLoanFiveclasscode" type="string"  column="Perguaranteeinfo_GuarLoanFiveclasscode"/>
+
+    </class>  
+  
+</hibernate-mapping> 

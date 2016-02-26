@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+  
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Identityinfo" table="identityinfo">  
+    
+        <id name="id" column="id">  
+        </id>  
+	<property name="ReportId" type="string"  column="ReportId"/>
+	
+	<property name="MaritalStatus" type="string"  column="MaritalStatus"/>
+	
+	<property name="Degree" type="string"  column="Degree"/>
+	
+	<property name="Identityinfo_Gender" type="string"  column="Identityinfo_Gender"/>
+	
+	<property name="Identityinfo_Education" type="string"  column="Identityinfo_Education"/>
+	
+	<property name="Identityinfo_DateOfBirth" type="date" not-null="false" length="7" column="Identityinfo_DateOfBirth"/>
+        
+    </class>  
+  
+</hibernate-mapping> 

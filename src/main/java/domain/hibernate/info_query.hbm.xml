@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.szdb.domain">  
+  
+    <class name="Info_query" table="info_query">  
+    
+        <id name="id" column="id" >  
+        </id>  
+
+		<property name="APPL_ID" type="string"  column="APPL_ID"/>
+		
+		<property name="信贷审批明细查询原因" type="string"  column="信贷审批明细查询原因"/>
+		
+		<property name="query_date" type="string"  column="query_date"/>
+		
+		<property name="query_no" type="string"  column="query_no"/>
+		
+
+    </class>  
+  
+</hibernate-mapping> 

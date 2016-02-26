@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.szdb.domain">  
+  
+    <class name="NewData" table="newdata">  
+    
+        <id name="id" column="id" >  
+        </id>  
+
+		<property name="zaa" type="string" length ="60"  column="zaa"/>
+<property name="zab" type="string" length ="60"  column="zab"/>
+<property name="zac" type="string" length ="60"  column="zac"/>
+<property name="zad" type="string" length ="60"  column="zad"/>
+<property name="zae" type="string" length ="60"  column="zae"/>
+<property name="zaf" type="string" length ="60"  column="zaf"/>
+<property name="zag" type="string" length ="60"  column="zag"/>
+<property name="zah" type="string" length ="60"  column="zah"/>
+<property name="zai" type="string" length ="60"  column="zai"/>
+<property name="zaj" type="string" length ="60"  column="zaj"/>
+<property name="zak" type="string" length ="60"  column="zak"/>
+<property name="zal" type="string" length ="60"  column="zal"/>
+<property name="zam" type="string" length ="60"  column="zam"/>
+<property name="zan" type="string" length ="60"  column="zan"/>
+<property name="zao" type="string" length ="60"  column="zao"/>
+<property name="zap" type="string" length ="60"  column="zap"/>
+<property name="zaq" type="string" length ="60"  column="zaq"/>
+<property name="zar" type="string" length ="60"  column="zar"/>
+<property name="zas" type="string" length ="60"  column="zas"/>
+<property name="zat" type="string" length ="60"  column="zat"/>
+<property name="zau" type="string" length ="60"  column="zau"/>
+<property name="zav" type="string" length ="60"  column="zav"/>
+<property name="zaw" type="string" length ="60"  column="zaw"/>
+<property name="zax" type="string" length ="60"  column="zax"/>
+<property name="zay" type="string" length ="60"  column="zay"/>
+<property name="zaz" type="string" length ="60"  column="zaz"/>
+<property name="zba" type="string" length ="60"  column="zba"/>
+<property name="zbb" type="string" length ="60"  column="zbb"/>
+<property name="zbc" type="string" length ="60"  column="zbc"/>
+<property name="zbd" type="string" length ="60"  column="zbd"/>
+<property name="zbe" type="string" length ="60"  column="zbe"/>
+<property name="zbf" type="string" length ="60"  column="zbf"/>
+<property name="zbg" type="string" length ="60"  column="zbg"/>
+<property name="zbh" type="string" length ="60"  column="zbh"/>
+<property name="zbi" type="string" length ="60"  column="zbi"/>
+<property name="zbj" type="string" length ="60"  column="zbj"/>
+<property name="zbk" type="string" length ="60"  column="zbk"/>
+<property name="zbl" type="string" length ="60"  column="zbl"/>
+<property name="zbm" type="string" length ="60"  column="zbm"/>
+<property name="zbn" type="string" length ="60"  column="zbn"/>
+<property name="zbo" type="string" length ="60"  column="zbo"/>
+<property name="zbp" type="string" length ="60"  column="zbp"/>
+<property name="zbq" type="string" length ="60"  column="zbq"/>
+<property name="zbr" type="string" length ="60"  column="zbr"/>
+<property name="zbs" type="string" length ="60"  column="zbs"/>
+<property name="zbt" type="string" length ="60"  column="zbt"/>
+<property name="zbu" type="string" length ="60"  column="zbu"/>
+<property name="zbv" type="string" length ="60"  column="zbv"/>
+<property name="zbw" type="string" length ="60"  column="zbw"/>
+<property name="zbx" type="string" length ="60"  column="zbx"/>
+<property name="zby" type="string" length ="60"  column="zby"/>
+<property name="zbz" type="string" length ="60"  column="zbz"/>
+<property name="zca" type="string" length ="60" column="zca"/>
+<property name="zcb" type="string" length ="60" column="zcb"/>
+<property name="zcc" type="string" length ="60" column="zcc"/>
+<property name="zcd" type="string" length ="60" column="zcd"/>
+<property name="zce" type="string" length ="60" column="zce"/>
+<property name="zcf" type="string" length ="60" column="zcf"/>
+<property name="zcg" type="string" length ="60" column="zcg"/>
+<property name="zch" type="string" length ="60" column="zch"/>
+<property name="zci" type="string" length ="60" column="zci"/>
+<property name="zcj" type="string" length ="60" column="zcj"/>
+<property name="zck" type="string" length ="60" column="zck"/>
+<property name="zcl" type="string" length ="60" column="zcl"/>
+<property name="zcm" type="string" length ="60" column="zcm"/>
+<property name="zcn" type="string" length ="60" column="zcn"/>
+<property name="zco" type="string" length ="60" column="zco"/>
+<property name="zcp" type="string" length ="60" column="zcp"/>
+<property name="zcq" type="string" length ="60" column="zcq"/>
+<property name="zcr" type="string" length ="60" column="zcr"/>
+<property name="zcs" type="string" length ="60" column="zcs"/>
+<property name="zct" type="string" length ="60" column="zct"/>
+<property name="zcu" type="string" length ="60" column="zcu"/>
+<property name="zcv" type="string" length ="60" column="zcv"/>
+<property name="zcw" type="string" length ="60" column="zcw"/>
+<property name="zcx" type="string" length ="60" column="zcx"/>
+<property name="zcy" type="string" length ="60" column="zcy"/>
+<property name="zcz" type="string" length ="60" column="zcz"/>
+<property name="zda" type="string" length ="60" column="zda"/>
+<property name="zdb" type="string" length ="60" column="zdb"/>
+<property name="zdc" type="string" length ="60" column="zdc"/>
+<property name="zdd" type="string" length ="60" column="zdd"/>
+<property name="zde" type="string" length ="60" column="zde"/>
+<property name="zdf" type="string" length ="60" column="zdf"/>
+<property name="zdg" type="string" length ="60" column="zdg"/>
+<property name="zdh" type="string" length ="60" column="zdh"/>
+<property name="zdi" type="string" length ="60" column="zdi"/>
+<property name="zdj" type="string" length ="60" column="zdj"/>
+<property name="zdk" type="string" length ="60" column="zdk"/>
+<property name="zdl" type="string" length ="60" column="zdl"/>
+<property name="zdm" type="string" length ="60" column="zdm"/>
+<property name="zdn" type="string" length ="60" column="zdn"/>
+<property name="zdo" type="string" length ="60" column="zdo"/>
+<property name="zdp" type="string" length ="60" column="zdp"/>
+<property name="zdq" type="string" length ="60" column="zdq"/>
+<property name="zdr" type="string" length ="60" column="zdr"/>
+<property name="zds" type="string" length ="60" column="zds"/>
+<property name="zdt" type="string" length ="60" column="zdt"/>
+<property name="zdu" type="string" length ="60" column="zdu"/>
+<property name="zdv" type="string" length ="60" column="zdv"/>
+<property name="zdw" type="string" length ="60" column="zdw"/>
+<property name="zdx" type="string" length ="60" column="zdx"/>
+<property name="zdy" type="string" length ="60" column="zdy"/>
+<property name="zdz" type="string" length ="60" column="zdz"/>
+<property name="zea" type="string" length ="60" column="zea"/>
+<property name="zeb" type="string" length ="60" column="zeb"/>
+<property name="zec" type="string" length ="60" column="zec"/>
+<property name="zed" type="string" length ="60" column="zed"/>
+<property name="zee" type="string" length ="60" column="zee"/>
+<property name="zef" type="string" length ="60" column="zef"/>
+<property name="zeg" type="string" length ="60" column="zeg"/>
+<property name="zeh" type="string" length ="60" column="zeh"/>
+<property name="zei" type="string" length ="60" column="zei"/>
+<property name="zej" type="string" length ="60" column="zej"/>
+<property name="zek" type="string" length ="60" column="zek"/>
+<property name="zel" type="string" length ="60" column="zel"/>
+<property name="zem" type="string" length ="60" column="zem"/>
+<property name="zen" type="string" length ="60" column="zen"/>
+<property name="zeo" type="string" length ="60" column="zeo"/>
+<property name="adviseloan" type="string" length ="60" column="adviseloan"/>
+<property name="adviseratio" type="string" length ="60" column="adviseratio"/>
+<property name="creditgrade" type="string" length ="60" column="creditgrade"/>
+<property name="badratio" type="string" length ="60" column="badratio"/>
+		
+
+    </class>  
+  
+</hibernate-mapping> 

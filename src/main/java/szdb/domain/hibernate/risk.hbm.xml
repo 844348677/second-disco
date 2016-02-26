@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.hdd.szdb.domain">
+
+    <class name="Risk" table="risk">
+
+        <id name="id"  column="id" >
+        </id>
+
+		<property name="applid" type="string" length = "60" column="applid"/>
+        <property name="a11" type="string" length = "60" column="a11"/>
+        <property name="a12" type="string" length = "60"  column="a12"/>
+        <property name="a13" type="string" length = "60"  column="a13"/>
+        <property name="a14" type="string" length = "60"  column="a14"/>
+        <property name="a15" type="string" length = "60"  column="a15"/>
+        <property name="a16" type="string" length = "60"  column="a16"/>
+        <property name="a17" type="string" length = "60"  column="a17"/>
+        <property name="a18" type="string" length = "60"  column="a18"/>
+        <property name="a19" type="string" length = "60"  column="a19"/>
+        <property name="b11" type="string" length = "60"  column="b11"/>
+        <property name="b12" type="string" length = "60"  column="b12"/>
+        <property name="b13" type="string" length = "60"  column="b13"/>
+        <property name="b14" type="string" length = "60"  column="b14"/>
+        <property name="b15" type="string" length = "60"  column="b15"/>
+        <property name="b16" type="string" length = "60"  column="b16"/>
+        <property name="b17" type="string" length = "60"  column="b17"/>
+        <property name="b18" type="string" length = "60"  column="b18"/>
+        <property name="b19" type="string" length = "60"  column="b19"/>
+
+
+
+    </class>
+
+</hibernate-mapping> 

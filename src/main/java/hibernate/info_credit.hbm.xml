@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.szdb.domain">  
+  
+    <class name="Info_credit" table="info_credit">  
+    
+        <id name="id" column="id" >  
+        </id>  
+
+		<property name="APPL_ID" type="string"  column="APPL_ID"/>
+		
+		<property name="account_status" type="string"  column="account_status"/>
+		
+		<property name="贷记卡编号" type="string"  column="贷记卡编号"/>
+		
+		<property name="贷款信用卡还款记录" type="string"  column="贷款信用卡还款记录"/>
+		
+		<property name="贷记卡共享额度" type="string"  column="贷记卡共享额度"/>
+		
+		<property name="贷记卡已用额度" type="string"  column="贷记卡已用额度"/>
+		
+		<property name="贷记卡最近6个月平均使用额度" type="string"  column="贷记卡最近6个月平均使用额度"/>
+		
+		<property name="贷记卡最大使用额度" type="string"  column="贷记卡最大使用额度"/>
+		
+		<property name="贷记卡本月应还款" type="string"  column="贷记卡本月应还款"/>
+		
+		<property name="贷记卡账单日" type="string"  column="贷记卡账单日"/>
+		
+		<property name="贷记卡本月实还款" type="string"  column="贷记卡本月实还款"/>
+		
+		<property name="贷记卡最近一次还款日期" type="string"  column="贷记卡最近一次还款日期"/>
+		
+		<property name="贷记卡当前逾期期数" type="string"  column="贷记卡当前逾期期数"/>
+		
+		<property name="贷记卡当前逾期金额" type="string"  column="贷记卡当前逾期金额"/>
+		
+		<property name="信用卡开户日期" type="string"  column="信用卡开户日期"/>
+		
+		<property name="信用卡币种" type="string"  column="信用卡币种"/>
+		
+		<property name="信用卡额度" type="string"  column="信用卡额度"/>
+		
+		<property name="信用卡担保类型" type="string"  column="信用卡担保类型"/>
+		
+		<property name="信用卡关户年月" type="string"  column="信用卡关户年月"/>
+		
+		<property name="信用卡信息更新日期" type="string"  column="信用卡信息更新日期"/>
+		
+		<property name="信用卡呆账前最后一次还款日期" type="string"  column="信用卡呆账前最后一次还款日期"/>
+		
+		<property name="信用卡呆账余额" type="string"  column="信用卡呆账余额"/>
+		
+		<property name="信用卡还款记录开始年月" type="string"  column="信用卡还款记录开始年月"/>
+		
+		<property name="信用卡还款记录结束年月" type="string"  column="信用卡还款记录结束年月"/>
+		
+
+    </class>  
+  
+</hibernate-mapping> 

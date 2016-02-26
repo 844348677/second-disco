@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+  
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Beoverduesummaryinfo" table="Beoverduesummaryinfo">  
+    
+        <id name="id" column="id">  
+        </id>  
+        <property name="reportId" type="string"  column="reportid"/> 
+         
+        <property name="beoverduesummaryinfo_QCreditCardOfMonNum" type="string"  column="Beoverduesummaryinfo_QCreditCardOfMonNum"/> 
+        
+        <property name="beoverduesummaryinfo_LoanOdHSMonOdAmt" type="string"  column="Beoverduesummaryinfo_LoanOdHSMonOdAmt"/> 
+        
+        <property name="beoverduesummaryinfo_QCreditCardOdLongOdMon" type="string"  column="Beoverduesummaryinfo_QCreditCardOdLongOdMon"/> 
+        
+        <property name="beoverduesummaryinfo_QCreditCardOdMaxSMonOdAmt" type="string"  column="Beoverduesummaryinfo_QCreditCardOdMaxSMonOdAmt"/> 
+        
+		<property name="beoverduesummaryinfo_CreditCardOdMaxSMonOdAmt" type="string"  column="Beoverduesummaryinfo_CreditCardOdMaxSMonOdAmt"/>
+		
+		<property name="beoverduesummaryinfo_CreditCardOdMonNum" type="string"  column="Beoverduesummaryinfo_CreditCardOdMonNum"/>
+		
+		<property name="beoverduesummaryinfo_LoanOdLongOdMon" type="string"  column="Beoverduesummaryinfo_LoanOdLongOdMon"/>
+		
+		<property name="beoverduesummaryinfo_QCreditCardOfAccountNum" type="string"  column="Beoverduesummaryinfo_QCreditCardOfAccountNum"/>
+		
+		<property name="beoverduesummaryinfo_CreditCardOdLongOdMon" type="string"  column="Beoverduesummaryinfo_CreditCardOdLongOdMon"/>
+		
+		<property name="beoverduesummaryinfo_LoanOdCountNum" type="string"  column="Beoverduesummaryinfo_LoanOdCountNum"/>
+		
+		<property name="beoverduesummaryinfo_CreditCardOdAccountNum" type="string"  column="Beoverduesummaryinfo_CreditCardOdAccountNum"/>
+		
+		<property name="beoverduesummaryinfo_LoanOdMonNum" type="string"  column="Beoverduesummaryinfo_LoanOdMonNum"/>
+    </class>  
+  
+</hibernate-mapping> 

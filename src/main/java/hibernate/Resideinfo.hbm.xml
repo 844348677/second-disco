@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Resideinfo" table="Resideinfo">  
+    
+        <id name="id" column="id">  
+        </id>  
+
+		<property name="ReportId" type="string"  column="ReportId"/>
+		
+		<property name="NO" type="string"  column="NO"/>
+		
+		<property name="Resideinfo_ResideStatus" type="string"  column="Resideinfo_ResideStatus"/>
+		
+		<property name="Resideinfo_InfoUpdateDate" type="date" length="7" column="Resideinfo_InfoUpdateDate"/>
+
+    </class>  
+  
+</hibernate-mapping> 

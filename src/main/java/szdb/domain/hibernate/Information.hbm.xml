@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.szdb.domain">
+  
+    <class name="Information" table="information">
+    
+        <id name="id" column="id" >  
+        </id>  
+
+<property name="appl_id" type="string"  column="appl_id"/>
+
+<property name="appl_date" type="string"  column="appl_date"/>
+
+<property name="appl_limit" type="string"  column="appl_limit"/>
+
+<property name="appl_period" type="string"  column="appl_period"/>
+
+<property name="age" type="string"  column="age"/>
+
+<property name="gender" type="string"  column="gender"/>
+
+<property name="appl_loan" type="string"  column="appl_loan"/>
+
+<property name="marital_status" type="string"  column="marital_status"/>
+
+<property name="education" type="string"  column="education"/>
+
+<property name="living_toghter" type="string"  column="living_toghter"/>
+
+<property name="rent" type="string"  column="rent"/>
+
+<property name="living_year" type="string"  column="living_year"/>
+
+<property name="work_year" type="string"  column="work_year"/>
+
+<property name="income" type="string"  column="income"/>
+
+<property name="unit_number" type="string"  column="unit_number"/>
+
+<property name="income_method" type="string"  column="income_method"/>
+
+<property name="secrecy" type="string"  column="secrecy"/>
+
+<property name="type" type="string"  column="type"/>
+
+<property name="house_property" type="string"  column="house_property"/>
+
+<property name="vehicle_purchase_way" type="string"  column="vehicle_purchase_way"/>
+
+<property name="vehicle_loan" type="string"  column="vehicle_loan"/>
+
+<property name="vehicle_monthly_loan" type="string"  column="vehicle_monthly_loan"/>
+
+<property name="loan_amount" type="string"  column="loan_amount"/>
+
+<property name="loan_period" type="string"  column="loan_period"/>
+
+<property name="owned_property_type" type="string"  column="owned_property_type"/>
+
+<property name="house_number" type="string"  column="house_number"/>
+
+<property name="living_month" type="string"  column="living_month"/>
+
+<property name="marital_type" type="string"  column="marital_type"/>
+
+<property name="education_status" type="string"  column="education_status"/>
+
+<property name="housing_loan_number" type="string"  column="housing_loan_number"/>
+
+<property name="other_loan_number" type="string"  column="other_loan_number"/>
+
+<property name="loan_first_month" type="string"  column="loan_first_month"/>
+
+<property name="credit_number" type="string"  column="credit_number"/>
+
+<property name="credit_first_month" type="string"  column="credit_first_month"/>
+
+<property name="qcredit_number" type="string"  column="qcredit_number"/>
+
+<property name="qcredit_first_month" type="string"  column="qcredit_first_month"/>
+
+<property name="overdue_loan_number" type="string"  column="overdue_loan_number"/>
+
+<property name="overdue_loan_month" type="string"  column="overdue_loan_month"/>
+
+<property name="overdue_loan_max" type="string"  column="overdue_loan_max"/>
+
+<property name="overdue_loan_month_max" type="string"  column="overdue_loan_month_max"/>
+
+<property name="overdue_credit_number" type="string"  column="overdue_credit_number"/>
+
+<property name="overdue_credit_month" type="string"  column="overdue_credit_month"/>
+
+<property name="overdue_credit_max" type="string"  column="overdue_credit_max"/>
+
+<property name="overdue_credit_month_max" type="string"  column="overdue_credit_month_max"/>
+
+<property name="overdue_qcredit_number" type="string"  column="overdue_qcredit_number"/>
+
+<property name="overdue_qcredit_month" type="string"  column="overdue_qcredit_month"/>
+
+<property name="overdue_qcredit_max" type="string"  column="overdue_qcredit_max"/>
+
+<property name="overdue_qcredit_month_max" type="string"  column="overdue_qcredit_month_max"/>
+
+<property name="outstanding_loan_organization_body_number" type="string"  column="outstanding_loan_organization_body_number"/>
+
+<property name="outstanding_loan_organization_number" type="string"  column="outstanding_loan_organization_number"/>
+
+<property name="outstanding_loan_number" type="string"  column="outstanding_loan_number"/>
+
+<property name="outstanding_loan_contract" type="string"  column="outstanding_loan_contract"/>
+
+<property name="outstanding_loan_balance" type="string"  column="outstanding_loan_balance"/>
+
+<property name="outstanding_loan_balance_average_repayment" type="string"  column="outstanding_loan_balance_average_repayment"/>
+
+<property name="credit_no_cancellation_organization_body_number" type="string"  column="credit_no_cancellation_organization_body_number"/>
+
+<property name="credit_no_cancellation_organization_number" type="string"  column="credit_no_cancellation_organization_number"/>
+
+<property name="credit_no_cancellation_number" type="string"  column="credit_no_cancellation_number"/>
+
+<property name="credit_no_cancellation_credit" type="string"  column="credit_no_cancellation_credit"/>
+
+<property name="credit_no_cancellation_credit_max" type="string"  column="credit_no_cancellation_credit_max"/>
+
+<property name="credit_no_cancellation_credit_min" type="string"  column="credit_no_cancellation_credit_min"/>
+
+<property name="credit_no_cancellation_used" type="string"  column="credit_no_cancellation_used"/>
+
+<property name="credit_no_cancellation_average_six_month" type="string"  column="credit_no_cancellation_average_six_month"/>
+
+<property name="qcredit_organization_body_number" type="string"  column="qcredit_organization_body_number"/>
+
+<property name="qcredit_organization_number" type="string"  column="qcredit_organization_number"/>
+
+<property name="qcredit_number2" type="string"  column="qcredit_number2"/>
+
+<property name="qcredit_credit" type="string"  column="qcredit_credit"/>
+
+<property name="qcredit_credit_max" type="string"  column="qcredit_credit_max"/>
+
+<property name="qcredit_credit_min" type="string"  column="qcredit_credit_min"/>
+
+<property name="qcredit_used" type="string"  column="qcredit_used"/>
+
+<property name="qcredit_average_six_month" type="string"  column="qcredit_average_six_month"/>
+
+<property name="guarantee_number" type="string"  column="guarantee_number"/>
+
+<property name="guarantee_amout" type="string"  column="guarantee_amout"/>
+
+<property name="guarantee_balance" type="string"  column="guarantee_balance"/>
+
+<property name="housing_fund_start_date" type="string"  column="housing_fund_start_date"/>
+
+<property name="housing_fund_start_month" type="string"  column="housing_fund_start_month"/>
+
+<property name="housing_fund_end_month" type="string"  column="housing_fund_end_month"/>
+
+<property name="housing_fund_month_balance" type="string"  column="housing_fund_month_balance"/>
+
+<property name="housing_fund_status" type="string"  column="housing_fund_status"/>
+
+<property name="housing_fund_personal" type="string"  column="housing_fund_personal"/>
+
+<property name="housing_fund_company" type="string"  column="housing_fund_company"/>
+
+<property name="housing_fund_update_date" type="string"  column="housing_fund_update_date"/>
+
+<property name="endowment_insurance_city" type="string"  column="endowment_insurance_city"/>
+
+<property name="endowment_insurance_start_date" type="string"  column="endowment_insurance_start_date"/>
+
+<property name="endowment_insurance_month_number" type="string"  column="endowment_insurance_month_number"/>
+
+<property name="endowment_insurance_work_date" type="string"  column="endowment_insurance_work_date"/>
+
+<property name="endowment_insurance_status" type="string"  column="endowment_insurance_status"/>
+
+<property name="endowment_insurance_personal" type="string"  column="endowment_insurance_personal"/>
+
+<property name="endowment_insurance_this_month_amount" type="string"  column="endowment_insurance_this_month_amount"/>
+
+<property name="endowment_insurance_update_date" type="string"  column="endowment_insurance_update_date"/>
+
+<property name="endowment_insurance_stop_reason" type="string"  column="endowment_insurance_stop_reason"/>
+
+<property name="query_last_month_organization_loan" type="string"  column="query_last_month_organization_loan"/>
+
+<property name="query_last_month_organization_credit" type="string"  column="query_last_month_organization_credit"/>
+
+<property name="query_last_month_loan" type="string"  column="query_last_month_loan"/>
+
+<property name="query_last_month_credit" type="string"  column="query_last_month_credit"/>
+
+<property name="query_last_year_loan_management" type="string"  column="query_last_year_loan_management"/>
+
+<property name="query_last_year_guarantee_examination" type="string"  column="query_last_year_guarantee_examination"/>
+
+<property name="query_last_year_real_name_examination" type="string"  column="query_last_year_real_name_examination"/>
+
+<property name="change_nameflag" type="string"  column="change_nameflag"/>
+
+
+
+    </class>  
+  
+</hibernate-mapping>

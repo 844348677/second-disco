@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+  
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Credittipsinfo" table="Credittipsinfo">  
+    
+        <id name="id" column="id">  
+        </id>  
+		
+		<property name="ReportId" type="string"  column="ReportId"/>
+		
+		<property name="DeclareNum" type="string"  column="DeclareNum"/>
+		
+		<property name="DissentNum" type="string"  column="DissentNum"/>
+		
+		<property name="Credittipsinfo_HouseLoanNum" type="string"  column="Credittipsinfo_HouseLoanNum"/>
+		
+		<property name="Credittipsinfo_CreditCardAccountNum" type="string"  column="Credittipsinfo_CreditCardAccountNum"/>
+		
+		<property name="Credittipsinfo_QuasiCreditCardMonth" type="string"  column="Credittipsinfo_QuasiCreditCardMonth"/>
+		
+		<property name="Credittipsinfo_FristLoanMonth" type="string"  column="Credittipsinfo_FristLoanMonth"/>
+		
+		<property name="Credittipsinfo_FristCreditCardMonth" type="string"  column="Credittipsinfo_FristCreditCardMonth"/>
+		
+		<property name="Credittipsinfo_QuasiCreditCardNun" type="string"  column="Credittipsinfo_QuasiCreditCardNun"/>
+		
+		<property name="Credittipsinfo_OtherLoanNum" type="string"  column="Credittipsinfo_OtherLoanNum"/>
+
+		
+    </class>  
+  
+</hibernate-mapping> 

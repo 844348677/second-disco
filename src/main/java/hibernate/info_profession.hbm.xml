@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.szdb.domain">  
+  
+    <class name="Info_profession" table="info_profession">  
+    
+        <id name="id" column="id" >  
+        </id>  
+
+		<property name="APPL_ID" type="string"  column="APPL_ID"/>
+		
+		<property name="职业信息工作单位" type="string"  column="职业信息工作单位"/>
+		
+		<property name="职业信息单位地址" type="string"  column="职业信息单位地址"/>
+		
+		<property name="职业信息职业" type="string"  column="职业信息职业"/>
+		
+		<property name="职业信息行业" type="string"  column="职业信息行业"/>
+		
+		<property name="职业信息职务" type="string"  column="职业信息职务"/>
+		
+		<property name="职业信息职称" type="string"  column="职业信息职称"/>
+		
+		<property name="job_update" type="string"  column="job_update"/>
+		
+		<property name="job_no" type="string"  column="job_no"/>
+		
+		<property name="job_begin" type="string"  column="job_begin"/>
+		
+		<property name="wor_profession" type="string"  column="wor_profession"/>
+		
+		<property name="wor_industry" type="string"  column="wor_industry"/>
+		
+		<property name="wor_position" type="string"  column="wor_position"/>
+		
+		<property name="wor_profession_2" type="string"  column="wor_profession_2"/>
+		
+		<property name="wor_begin" type="string"  column="wor_begin"/>
+		
+		<property name="wor_update" type="string"  column="wor_update"/>
+		
+
+    </class>  
+  
+</hibernate-mapping> 

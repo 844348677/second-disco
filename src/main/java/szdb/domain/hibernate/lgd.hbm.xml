@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.szdb.domain">  
+  
+    <class name="Lgd" table="lgd">  
+    
+        <id name="id" column="id" >  
+        </id>  
+
+		<property name="applid" type="string" length ="60"  column="applid"/>
+		
+<property name="amout10000" type="string" length ="60"  column="amout10000"/>
+<property name="amout20000" type="string" length ="60"  column="amout20000"/>
+<property name="amout30000" type="string" length ="60"  column="amout30000"/>
+<property name="amout40000" type="string" length ="60"  column="amout40000"/>
+<property name="amout50000" type="string" length ="60"  column="amout50000"/>
+<property name="amout60000" type="string" length ="60"  column="amout60000"/>
+<property name="amout70000" type="string" length ="60"  column="amout70000"/>
+<property name="amout80000" type="string" length ="60"  column="amout80000"/>
+<property name="amout90000" type="string" length ="60"  column="amout90000"/>
+<property name="amout100000" type="string" length ="60"  column="amout100000"/>
+<property name="amout110000" type="string" length ="60"  column="amout110000"/>
+<property name="amout120000" type="string" length ="60"  column="amout120000"/>
+<property name="amout130000" type="string" length ="60"  column="amout130000"/>
+<property name="amout140000" type="string" length ="60"  column="amout140000"/>
+<property name="amout150000" type="string" length ="60"  column="amout150000"/>
+<property name="amout160000" type="string" length ="60"  column="amout160000"/>
+<property name="amout170000" type="string" length ="60"  column="amout170000"/>
+<property name="amout180000" type="string" length ="60"  column="amout180000"/>
+<property name="amout190000" type="string" length ="60"  column="amout190000"/>
+<property name="amout200000" type="string" length ="60"  column="amout200000"/>
+<property name="amout210000" type="string" length ="60"  column="amout210000"/>
+<property name="amout220000" type="string" length ="60"  column="amout220000"/>
+<property name="amout230000" type="string" length ="60"  column="amout230000"/>
+<property name="amout240000" type="string" length ="60"  column="amout240000"/>
+<property name="amout250000" type="string" length ="60"  column="amout250000"/>
+<property name="amout260000" type="string" length ="60"  column="amout260000"/>
+<property name="amout270000" type="string" length ="60"  column="amout270000"/>
+<property name="amout280000" type="string" length ="60"  column="amout280000"/>
+<property name="amout290000" type="string" length ="60"  column="amout290000"/>
+<property name="amout300000" type="string" length ="60"  column="amout300000"/>
+<property name="amout310000" type="string" length ="60"  column="amout310000"/>
+<property name="amout320000" type="string" length ="60"  column="amout320000"/>
+<property name="amout330000" type="string" length ="60"  column="amout330000"/>
+<property name="amout340000" type="string" length ="60"  column="amout340000"/>
+<property name="amout350000" type="string" length ="60"  column="amout350000"/>
+<property name="amout360000" type="string" length ="60"  column="amout360000"/>
+<property name="amout370000" type="string" length ="60"  column="amout370000"/>
+<property name="amout380000" type="string" length ="60"  column="amout380000"/>
+<property name="amout390000" type="string" length ="60"  column="amout390000"/>
+<property name="amout400000" type="string" length ="60"  column="amout400000"/>
+<property name="amout410000" type="string" length ="60"  column="amout410000"/>
+<property name="amout420000" type="string" length ="60"  column="amout420000"/>
+<property name="amout430000" type="string" length ="60"  column="amout430000"/>
+<property name="amout440000" type="string" length ="60"  column="amout440000"/>
+<property name="amout450000" type="string" length ="60"  column="amout450000"/>
+<property name="amout460000" type="string" length ="60"  column="amout460000"/>
+<property name="amout470000" type="string" length ="60"  column="amout470000"/>
+<property name="amout480000" type="string" length ="60"  column="amout480000"/>
+<property name="amout490000" type="string" length ="60"  column="amout490000"/>
+
+    </class>  
+  
+</hibernate-mapping> 

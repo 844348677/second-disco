@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+  
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Creditcardinfo" table="Creditcardinfo">  
+    
+        <id name="id" column="id">  
+        </id>  
+        <property name="reportId" type="string"  column="reportid"/> 
+		
+		<property name="credit_num" type="string"  column="credit_num"/>
+		
+		<property name="org" type="string"  column="org"/>
+		
+		<property name="BillingDate" type="date" length="7"  column="BillingDate"/>
+		
+		<property name="TheLastestRepayDay" type="date" length="7"  column="TheLastestRepayDay"/>
+		
+		<property name="creadit_opendate" type="date" length="7"  column="creadit_opendate"/>
+		
+		<property name="currency_type" type="string"  column="currency_type"/>
+		
+		<property name="credit_busnum" type="string"  column="credit_busnum"/>
+		
+		<property name="account_closemonth" type="string"  column="account_closemonth"/>
+		
+		<property name="account_infodate" type="date" length="7"  column="account_infodate"/>
+		
+		<property name="pay_beginmonth" type="string"  column="pay_beginmonth"/>
+		
+		<property name="pay_endmonth" type="string"  column="pay_endmonth"/>
+		
+		<property name="Creditcardinfo_Month24RepayStatus" type="string"  column="Creditcardinfo_Month24RepayStatus"/>
+		
+		<property name="Creditcardinfo_CurrentOverdueNum" type="string"  column="Creditcardinfo_CurrentOverdueNum"/>
+		
+		<property name="Creditcardinfo_Last6MonthsAve" type="string"  column="Creditcardinfo_Last6MonthsAve"/>
+		
+		<property name="Creditcardinfo_warranty_type" type="string"  column="Creditcardinfo_warranty_type"/>
+		
+		<property name="Creditcardinfo_ThisMonthActualRepayAmount" type="string"  column="Creditcardinfo_ThisMonthActualRepayAmount"/>
+		
+		<property name="Creditcardinfo_UsedCreditLimit" type="string"  column="Creditcardinfo_UsedCreditLimit"/>
+		
+		<property name="Creditcardinfo_credit_limit" type="string"  column="Creditcardinfo_credit_limit"/>
+		
+		<property name="Creditcardinfo_CurrentOverdueAmount" type="string"  column="Creditcardinfo_CurrentOverdueAmount"/>
+		
+		<property name="Creditcardinfo_account_status" type="string"  column="Creditcardinfo_account_status"/>
+		
+		<property name="Creditcardinfo_SharedCreditLimit" type="string"  column="Creditcardinfo_SharedCreditLimit"/>
+		
+		<property name="Creditcardinfo_ThisMonthRepayAmount" type="string"  column="Creditcardinfo_ThisMonthRepayAmount"/>
+		
+		<property name="Creditcardinfo_MaxUsedCreditLimit" type="string"  column="Creditcardinfo_MaxUsedCreditLimit"/>
+		
+    </class>  
+  
+</hibernate-mapping> 

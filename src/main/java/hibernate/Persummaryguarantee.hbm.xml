@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Persummaryguarantee" table="Persummaryguarantee">  
+    
+        <id name="id" column="id">  
+        </id>  
+
+		<property name="ReportId" type="string"  column="ReportId"/>
+		
+		<property name="PerGuarMount" type="string"  column="PerGuarMount"/>
+		
+		<property name="Persummaryguarantee_PerGuarPrincipalAmount" type="string"  column="Persummaryguarantee_PerGuarPrincipalAmount"/>
+		
+		<property name="Persummaryguarantee_PerGuarAmount" type="string"  column="Persummaryguarantee_PerGuarAmount"/>
+
+    </class>  
+  
+</hibernate-mapping> 

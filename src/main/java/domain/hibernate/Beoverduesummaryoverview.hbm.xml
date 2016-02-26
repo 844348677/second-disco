@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+  
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Beoverduesummaryoverview" table="Beoverduesummaryoverview">  
+    
+        <id name="id" column="id">  
+        </id>  
+        <property name="reportId" type="string"  column="reportid"/> 
+         
+        <property name="beoverduesummaryoverview_GuarantorCompenInfoSumNumber" type="string"  column="Beoverduesummaryoverview_GuarantorCompenInfoSumNumber"/> 
+        
+        <property name="beoverduesummaryoverview_GuarantorCompenInfoSumAmount" type="string"  column="Beoverduesummaryoverview_GuarantorCompenInfoSumAmount"/> 
+        
+        <property name="beoverduesummaryoverview_BadDebtsInfoSumAmount" type="string"  column="Beoverduesummaryoverview_BadDebtsInfoSumAmount"/> 
+        
+        <property name="beoverduesummaryoverview_AssetsDisposalInfoSumAmount" type="string"  column="Beoverduesummaryoverview_AssetsDisposalInfoSumAmount"/> 
+        
+		<property name="beoverduesummaryoverview_BadDebtsInfoSumNum" type="string"  column="Beoverduesummaryoverview_BadDebtsInfoSumNum"/>
+		
+		<property name="beoverduesummaryoverview_AssetsDisposalInfoSumNumber" type="string"  column="Beoverduesummaryoverview_AssetsDisposalInfoSumNumber"/>
+	
+    </class>  
+  
+</hibernate-mapping> 
+
+

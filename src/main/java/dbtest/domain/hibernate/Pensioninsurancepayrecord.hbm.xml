@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Pensioninsurancepayrecord" table="Pensioninsurancepayrecord">  
+    
+        <id name="id" column="id">  
+        </id>  
+		
+		<property name="ReportId" type="string"  column="ReportId"/>
+		
+		<property name="PayArea" type="string"  column="PayArea"/>
+		
+		<property name="PayState" type="string"  column="PayState"/>
+		
+		<property name="CancelPayReason" type="string"  column="CancelPayReason"/>
+		
+		<property name="InfoUpdateDate" type="date" length="7"  column="InfoUpdateDate"/>
+		
+		<property name="PayDate"  type="date" length="7"  column="PayDate"/>
+		
+		<property name="CumulativePayMonths" type="string"  column="CumulativePayMonths"/>
+		
+		<property name="PersonPayBase" type="string"  column="PersonPayBase"/>
+		
+		<property name="ThisMonthPayAmount" type="string"  column="ThisMonthPayAmount"/>
+		
+		<property name="Pensioninsurancepayrecord_WorkMonth" type="string"  column="Pensioninsurancepayrecord_WorkMonth"/>
+
+    </class>  
+  
+</hibernate-mapping> 

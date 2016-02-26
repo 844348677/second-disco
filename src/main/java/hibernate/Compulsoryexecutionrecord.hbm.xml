@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+  
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Compulsoryexecutionrecord" table="Compulsoryexecutionrecord">  
+    
+        <id name="id" column="id">  
+        </id>  
+        <property name="reportId" type="string"  column="reportid"/> 
+         
+        <property name="No" type="string"  column="No"/> 
+        
+        <property name="ExecutiveCourt" type="string"  column="ExecutiveCourt"/> 
+        
+        <property name="ExecutiveCaseReason" type="string"  column="ExecutiveCaseReason"/> 
+        
+        <property name="ClosedWay" type="string"  column="ClosedWay"/> 
+        
+		<property name="ApplyExecSubject" type="string"  column="ApplyExecSubject"/>
+		
+		<property name="AlreadyExecSubject" type="string"  column="AlreadyExecSubject"/>
+		
+		<property name="FilingDate" type="date" length="7"  column="FilingDate"/>
+		
+		<property name="ClosedDate" type="date" length="7"  column="ClosedDate"/>
+		
+		<property name="ApplyExecSubjectValue" type="string"  column="ApplyExecSubjectValue"/>
+		
+		<property name="AlreadyExecSubjectValue" type="string"  column="AlreadyExecSubjectValue"/>
+		
+		<property name="Compulsoryexecutionrecord_CaseState" type="string"  column="Compulsoryexecutionrecord_CaseState"/>
+		
+    </class>  
+  
+</hibernate-mapping> 

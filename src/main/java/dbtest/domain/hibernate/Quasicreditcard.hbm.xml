@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Quasicreditcard" table="Quasicreditcard">  
+    
+        <id name="id" column="id">  
+        </id>  
+
+		<property name="ReportId" type="string"  column="ReportId"/>
+		
+		<property name="BillingDate" type="date" length="7" column="BillingDate"/>
+		
+		<property name="TheLastestRepayDay" type="date" length="7" column="TheLastestRepayDay"/>
+		
+		<property name="OverOver180UnpaidBalan" type="string"  column="OverOver180UnpaidBalan"/>
+		
+		<property name="qcreadit_opendate" type="date" length="7" column="qcreadit_opendate"/>
+		
+		<property name="qorg" type="string"  column="qorg"/>
+		
+		<property name="currency_type" type="string"  column="currency_type"/>
+		
+		<property name="qcredit_busnum" type="string"  column="qcredit_busnum"/>
+		
+		<property name="account_closemonth" type="string"  column="account_closemonth"/>
+		
+		<property name="account_infodate" type="date" length="7" column="account_infodate"/>
+		
+		<property name="pay_beginmonth" type="string"  column="pay_beginmonth"/>
+		
+		<property name="pay_endmonth" type="string"  column="pay_endmonth"/>
+		
+		<property name="ThisMonthRepayDay" type="string"  column="ThisMonthRepayDay"/>
+		
+		<property name="Quasicreditcard_OverdraftBalance" type="string"  column="Quasicreditcard_OverdraftBalance"/>
+		
+		<property name="Quasicreditcard_ThisMonthActualRepayAmount" type="string"  column="Quasicreditcard_ThisMonthActualRepayAmount"/>
+		
+		<property name="Quasicreditcard_qcredit_num" type="string"  column="Quasicreditcard_qcredit_num"/>
+		
+		<property name="Quasicreditcard_SharedCreditLimit" type="string"  column="Quasicreditcard_SharedCreditLimit"/>
+		
+		<property name="Quasicreditcard_MaxOverBalan" type="string"  column="Quasicreditcard_MaxOverBalan"/>
+		
+		<property name="Quasicreditcard_qcredit_limit" type="string"  column="Quasicreditcard_qcredit_limit"/>
+		
+		<property name="Quasicreditcard_Month24RepayStatus" type="string"  column="Quasicreditcard_Month24RepayStatus"/>
+		
+		<property name="Quasicreditcard_qcredit_type" type="string"  column="Quasicreditcard_qcredit_type"/>
+		
+		<property name="Quasicreditcard_account_status" type="string"  column="Quasicreditcard_account_status"/>
+		
+		<property name="Quasicreditcard_Last6MonthsAveOverBalan" type="string"  column="Quasicreditcard_Last6MonthsAveOverBalan"/>
+
+    </class>  
+  
+</hibernate-mapping> 

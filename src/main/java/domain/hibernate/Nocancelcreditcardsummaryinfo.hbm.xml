@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+  
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Nocancelcreditcardsummaryinfo" table="Nocancelcreditcardsummaryinfo">  
+    
+        <id name="id" column="id">  
+        </id>  
+		
+		<property name="ReportId" type="string"  column="ReportId"/>
+		
+		<property name="HairpinLegalOrgNum" type="string"  column="HairpinLegalOrgNum"/>
+		
+		<property name="Nocancelcreditcardsummaryinfo_Last6MonthsAvgUseLimit" type="string"  column="Nocancelcreditcardsummaryinfo_Last6MonthsAvgUseLimit"/>
+		
+		<property name="Nocancelcreditcardsummaryinfo_HairpinOrgNum" type="string"  column="Nocancelcreditcardsummaryinfo_HairpinOrgNum"/>
+		
+		<property name="Nocancelcreditcardsummaryinfo_AccountNum" type="string"  column="Nocancelcreditcardsummaryinfo_AccountNum"/>
+		
+		<property name="Nocancelcreditcardsummaryinfo_SingleBankMaxFinanceLimit" type="string"  column="Nocancelcreditcardsummaryinfo_SingleBankMaxFinanceLimit"/>
+		
+		<property name="Nocancelcreditcardsummaryinfo_UsedCreditLimit" type="string"  column="Nocancelcreditcardsummaryinfo_UsedCreditLimit"/>
+		
+		<property name="Nocancelcreditcardsummaryinfo_SingleBankMinFinanceLimit" type="string"  column="Nocancelcreditcardsummaryinfo_SingleBankMinFinanceLimit"/>
+		
+		<property name="Nocancelcreditcardsummaryinfo_FinanceProfits" type="string"  column="Nocancelcreditcardsummaryinfo_FinanceProfits"/>
+
+		
+    </class>  
+  
+</hibernate-mapping> 

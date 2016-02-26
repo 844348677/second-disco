@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+        
+<hibernate-mapping package="com.hdd.dbtest.domain">  
+  
+    <class name="Pboc_loan_overdue" table="Pboc_loan_overdue">  
+    
+        <id name="id" column="id">  
+        </id>  
+		
+		<property name="ReportId" type="string"  column="ReportId"/>
+		
+		<property name="Pboc_loan_overdue_loan_num" type="string"  column="Pboc_loan_overdue_loan_num"/>
+		
+		<property name="Pboc_loan_overdue_OverdueMonthNum" type="string"  column="Pboc_loan_overdue_OverdueMonthNum"/>
+		
+		<property name="Pboc_loan_overdue_OverdueAmount" type="string"  column="Pboc_loan_overdue_OverdueAmount"/>
+		
+		<property name="Pboc_loan_overdue_OverdueMonth" type="string"  column="Pboc_loan_overdue_OverdueMonth"/>
+
+    </class>  
+  
+</hibernate-mapping> 
